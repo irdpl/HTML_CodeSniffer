@@ -12,7 +12,7 @@
         <script type="text/javascript" src="./build/HTMLCS.js"></script>
         <script type="text/javascript" src="./home.js"></script>
         <script type="text/javascript" src="./jquery-1.8.0.min.js"></script>
-        <script type="text/javascript">
+         <!--        <script type="text/javascript">
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-359178-16']);
             _gaq.push(['_trackPageview']);
@@ -22,26 +22,26 @@
                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
-        </script>
+        </script> -->
     </head>
     <body>
 
         <div id="back-to-top" class="off">
-        <span><a href="#">top</a></span>
+        <span><a href="#">góra</a></span>
         </div>
 
         <div id="fork-me">
-        <a href="https://github.com/squizlabs/HTML_CodeSniffer" id="git"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+        <a href="https://github.com/squizlabs/HTML_CodeSniffer" id="git"><img src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Rozwidlij na GitHubie"></a>
         </div>
 
         <div id="header">
             <div class="max-width">
                 <h1><span class="htmlcs-heading"></span><span class="screen-hide">HTML_CodeSniffer</span></h1>
-                <map name="External Links">
+                <map name="Łącza zewnętrzne">
                     <ul id="sprites">
                         <li><a href="http://squiz.com.au" class="header-sprite squiz-logo"><span class="screen-hide">Squiz</span></a></li>
-                        <li><a href="https://github.com/squizlabs/HTML_CodeSniffer" class="header-sprite github-logo"><span class="screen-hide">HTML_CodeSniffer on GitHub</span></a></li>
-                        <li><a href="http://twitter.com/htmlcs" class="header-sprite twitter-logo"><span class="screen-hide">Follow us on Twitter</span></a></li>
+                        <li><a href="https://github.com/squizlabs/HTML_CodeSniffer" class="header-sprite github-logo"><span class="screen-hide">HTML_CodeSniffer na GitHub</span></a></li>
+                        <li><a href="http://twitter.com/htmlcs" class="header-sprite twitter-logo"><span class="screen-hide">Obserwuj nas na Twitterze</span></a></li>
                     </ul>
                 </map>
             </div>
@@ -59,19 +59,19 @@
                     <p>HTML_CodeSniffer to skrypt po stronie klienta, który sprawdza kod źródłowy HTML i wykrywa naruszenia zdefiniowanego standardu kodowania. HTML_CodeSniffer jest napisany w całości w JavaScript, nie wymaga żadnego przetwarzania po stronie serwera i może być rozszerzony przez programistów w celu wymuszenia własnych standardów kodowania poprzez tworzenie własnych „sniffów”.</p>
 					
 					<p>Na początek HTML_CodeSniffer zawiera standardy, które egzekwują trzy poziomy zgodności z <a href="http://www.w3.org/TR/WCAG/"> Wytycznymi dla dostępności treści internetowych (WCAG) 2.1</a> oraz związane z Internetem komponenty 
-                    <a href="https://www.section508.gov/"><abbr title="United States of America">amerykańskiego prawodawstwa</abbr> „Sekcja 508”</a>.
-                  Skryptozakładka zapewnia interfejs audytora, który umożliwia wypróbowanie tych testów dostępności na dowolnej stronie internetowej..</p>
+                    <a href="https://www.section508.gov/">amerykańskiego prawodawstwa „Sekcja 508”</a>.
+                  Skryptozakładka zapewnia interfejs audytora, który umożliwia ci wykonanie tych testów dostępności na dowolnej stronie internetowej..</p>
 
                     <span class="introduction-divider"></span>
 
                     <div id="standards-list">
 
-                    <h3 class="dark-heading">List of standards and sniff coverage</h3>
+                    <h3 class="dark-heading">Wykaz standardów i zasięg analizy</h3>
 
-                    <map name="Coverage List">
+                    <map name="Wykaz pokrycia">
                         <ul>
-                            <li><a href="Standards/WCAG2">WCAG 2.1 (Level A, AA, AAA)</a></li>
-                            <li><a href="Standards/Section508">Section 508</a></li>
+                            <li><a href="Standards/WCAG2">WCAG 2.1 (Poziom A, AA, AAA)</a></li>
+                            <li><a href="Standards/Section508">Sekcja 508</a></li>
                         </ul>
                     </map>
 
@@ -80,11 +80,11 @@
                 </div>
 
                 <div id="bookmarklet">
-                    <h2 class="screen-hide">WCAG 2.1/Section 508 Bookmarklet</h2>
+                    <h2 class="screen-hide">Skryptozakładka WCAG 2.1/Sekcja 508</h2>
                     <div id="bookmarklet-feature"></div>
 
                     <div id="issueCounterWrap" style="display:none;">
-                        <span class="statsHeading">Issues detected by the bookmarklet:</span>
+                        <span class="statsHeading">Problemy wykryte przez zakładkę:</span>
                         <div id="issueCounter" class="statsCounter"></div>
                     </div>
 
@@ -121,15 +121,15 @@
                         });
                     </script>
 
-                    <div class="button" onclick="alert('Drag this to your browser Bookmarks Bar to install.  Once installed, you can run the WCAG Bookmarklet over any page.'); return false;">
+                    <div class="button" onclick="alert('Przeciągnij na pasek zakładek przeglądarki, aby zainstalować.  Po zainstalowaniu, można uruchomić skryptozakładkę na dowolnej stronie.'); return false;">
                         <a id="add-bookmarklet" onmousedown="_gaq.push(['_trackEvent', 'Viper', 'bookmarklet.clicked']);" href="javascript:(function() {var _p='//www.irdpl.pl/HTML_CodeSniffer/build/';var _i=function(s,cb) {var sc=document.createElement('script');sc.onload = function() {sc.onload = null;sc.onreadystatechange = null;cb.call(this);};sc.onreadystatechange = function(){if(/^(complete|loaded)$/.test(this.readyState) === true){sc.onreadystatechange = null;sc.onload();}};sc.src=s;if (document.head) {document.head.appendChild(sc);} else {document.getElementsByTagName('head')[0].appendChild(sc);}}; var options={path:_p};_i(_p+'HTMLCS.js',function(){HTMLCSAuditor.run('WCAG2AA',null,options);});})();"><span class="screen-hide">HTML_CodeSniffer</span></a>
 
-                        <div id="button-title">Get the <strong>Accessibility Auditor Bookmarklet</strong><br>
-                        <span class="button-ins">Drag this link to your bookmarks bar to install</span>
+                        <div id="button-title">Pobierz <strong>zakładkę Audytor dostępności</strong><br>
+                        <span class="button-ins">Przeciągnij to łącze na pasek zakładek swojej przeglądarki</span>
                         </div>
                     </div>
 
-                    <div class="requirements">This bookmarklet has been designed to work with Google Chrome, Firefox, Safari and Internet Explorer
+                    <div class="requirements">Ta zakładka została zaprojektowana do pracy z Google Chrome, Firefox, Safari i Internet Explorer.
                     </div>
                 </div>
              </div><!-- end max-width -->
@@ -140,34 +140,37 @@
          <div id="test-area">
 
             <div class="max-width">
-                <h3>Run your code through the Sniffer</h3>
+                <h3>Przeanalizuj swój kod za pomocą Sniffera</h3>
 
-                <p>Run HTML_CodeSniffer over your own code to see how it works. The sniffer below will test your source code against your selected guideline.<br>
-                Test results will be shown underneath the code block.</p>
+                <p>Uruchom HTML_CodeSniffer na własnym kodzie, aby zobaczyć jak działa. Poniższy sniffer przetestuje Twój kod źródłowy pod kątem wybranej wytycznej.<br>
+                Wyniki testu będą widoczne pod blokiem kodu.</p>
+				
+				 
+
 
                 <div id="code-input">
                     <form id="runHTMLCS" action="" onsubmit="javascript:runHTMLCSTest(false); return false;">
                         <div id="code-overlay" onclick="hideDiv()">
-                            <div id="test-area-graphic"></div>Paste your code here
+                            <div id="test-area-graphic"></div>Wklej tutaj swój kod
                         </div>
 
-                        <textarea id="source" title="Enter the source code to be sniffed" rows="20" cols="100"></textarea>
+                        <textarea id="source" title="Wpisz kod źródłowy, który ma być przeanalizowany." rows="20" cols="100"></textarea>
 
                         <div id="test-options">
                             <fieldset>
-                                <legend>Standard:</legend>
+                                <legend>Standardy:</legend>
                             <ul>
-                                <li><input type="radio" value="WCAG2A" name="level" id="WCAG2A" class="radio-input"><span class="radio-gen"></span><label for="WCAG2A"> WCAG 2.1 Level A</label></li>
+                                <li><input type="radio" value="WCAG2A" name="level" id="WCAG2A" class="radio-input"><span class="radio-gen"></span><label for="WCAG2A"> WCAG 2.1 Poziom A</label></li>
 
-                                <li><input type="radio" value="WCAG2AA" name="level" id="WCAG2AA" class="radio-input"><span class="radio-gen"></span><label for="WCAG2AA"> WCAG 2.1 Level AA</label></li>
+                                <li><input type="radio" value="WCAG2AA" name="level" id="WCAG2AA" class="radio-input"><span class="radio-gen"></span><label for="WCAG2AA"> WCAG 2.1 Poziom AA</label></li>
 
-                                <li><input type="radio" value="WCAG2AAA" name="level" id="WCAG2AAA" class="radio-input" checked><span class="radio-gen radio-on"></span><label for="WCAG2AAA"> WCAG 2.1 Level AAA</label></li>
+                                <li><input type="radio" value="WCAG2AAA" name="level" id="WCAG2AAA" class="radio-input" checked><span class="radio-gen radio-on"></span><label for="WCAG2AAA"> WCAG 2.1 Poziom AAA</label></li>
 
-                                <li><input type="radio" value="Section508" name="level" id="Section508" class="radio-input"><span class="radio-gen"></span><label for="Section508"> Section 508</label></li>
+                                <li><input type="radio" value="Section508" name="level" id="Section508" class="radio-input"><span class="radio-gen"></span><label for="Section508"> Sekcja 508</label></li>
                             </ul>
                             </fieldset>
 
-                            <button type="submit" id="run-button" class="test-options-disabled">Run HTML_CodeSniffer</button>
+                            <button type="submit" id="run-button" class="test-options-disabled">Uruchom HTML_CodeSniffer</button>
 
                         </div>
                     </form>
