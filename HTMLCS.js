@@ -30,7 +30,7 @@ _global.HTMLCS = new function()
     this.NOTICE  = 3;
 
     // The current language to use.
-    this.lang = 'en';
+    this.lang = 'pl';
 
     /**
      * Loads the specified standard and run the sniffs.
