@@ -545,8 +545,8 @@ td a:hover {
  clear:both;
  display:block;
  cursor:pointer;
- -moz-transition: opacity 0.4s ease 0s;
- -webkit-transition: opacity 0.4s ease 0s;
+/* -moz-transition: opacity 0.4s ease 0s;
+ -webkit-transition: opacity 0.4s ease 0s; */
  border-radius:3px;
  text-shadow:none;
  box-shadow:0 0 30px rgba(0,0,0,.4) inset;
