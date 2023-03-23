@@ -36,9 +36,7 @@
 
         <div id="header">
             <div class="max-width">
-                <h1><span class="htmlcs-heading"></span><span class="screen-hide">HTML_CodeSniffer</span></h1>
-				<p id="sprites">Wydanie polskie</p>
-
+                <h1><span class="htmlcs-heading"></span><span class="screen-hide">HTML_CodeSniffer - wydanie polskie</span></h1>
             </div>
         </div>
 
@@ -51,9 +49,11 @@
                 <div id="content">
                     <h2>Sprawdź, czy Twój kod HTML jest zgodny ze standardem kodowania</h2>
 
-                    <p>HTML_CodeSniffer to skrypt po stronie klienta, który sprawdza kod źródłowy HTML i wykrywa naruszenia zdefiniowanego standardu kodowania. HTML_CodeSniffer jest napisany w całości w JavaScript, nie wymaga żadnego przetwarzania po stronie serwera i może być rozszerzony przez programistów w celu wymuszenia własnych standardów kodowania poprzez tworzenie własnych „sniffów”.</p>
+                    <p>HTML_CodeSniffer to skrypt, który sprawdza kod źródłowy HTML i wykrywa naruszenia zdefiniowanego standardu kodowania. HTML_CodeSniffer jest napisany w całości w JavaScript, nie wymaga żadnego przetwarzania po stronie serwera i może być rozszerzony przez programistów w celu wymuszenia własnych standardów kodowania poprzez tworzenie własnych „sniffów”.</p>
+					<p>Autorem HTML_CodeSniffer jest australijska firma <a href="https://github.com/squizlabs/HTML_CodeSniffer">Squiz Labs</a>.</p>
+					<p>Zdecydowaliśmy się na wydanie polskie, bo oryginalna wersja, choć istnieje polskie tłumaczenie, nie działa zgodnie z oczekiwaniami - wyniki wyświetlane są w języku angielskim, choć istnieje tłumaczenie na język polski. 				
 					
-					<p>Na początek HTML_CodeSniffer zawiera standardy, które egzekwują trzy poziomy zgodności z <a href="http://www.w3.org/TR/WCAG/"> Wytycznymi dla dostępności treści internetowych (WCAG) 2.1</a> oraz związane z Internetem komponenty 
+					<p>Na początek HTML_CodeSniffer zawiera standardy, które weryfikuiją trzy poziomy zgodności z <a href="https://www.w3.org/Translations/WCAG21-pl/"> Wytycznymi dla dostępności treści internetowych (WCAG) 2.1</a> oraz związane z Internetem komponenty 
                     <a href="https://www.section508.gov/">amerykańskiego prawodawstwa „Sekcja 508”</a>.
                   Skryptozakładka zapewnia interfejs audytora, który umożliwia ci wykonanie tych testów dostępności na dowolnej stronie internetowej..</p>
 
@@ -116,7 +116,7 @@
                         });
                     </script>
 
-                    <div class="button" onclick="alert('Przeciągnij na pasek zakładek przeglądarki, aby zainstalować.  Po zainstalowaniu, można uruchomić skryptozakładkę na dowolnej stronie.'); return false;">
+                    <div class="button" onclick="alert('Przeciągnij na pasek zakładek przeglądarki, aby zainstalować. Po zainstalowaniu, można uruchomić skryptozakładkę na dowolnej stronie.'); return false;">
                         <a id="add-bookmarklet" onmousedown="_gaq.push(['_trackEvent', 'Viper', 'bookmarklet.clicked']);" href="javascript:(function() {var _p='//www.irdpl.pl/HTML_CodeSniffer/build/';var _i=function(s,cb) {var sc=document.createElement('script');sc.onload = function() {sc.onload = null;sc.onreadystatechange = null;cb.call(this);};sc.onreadystatechange = function(){if(/^(complete|loaded)$/.test(this.readyState) === true){sc.onreadystatechange = null;sc.onload();}};sc.src=s;if (document.head) {document.head.appendChild(sc);} else {document.getElementsByTagName('head')[0].appendChild(sc);}}; var options={path:_p};_i(_p+'HTMLCS.js',function(){HTMLCSAuditor.run('WCAG2AA',null,options);});})();"><span class="screen-hide">HTML_CodeSniffer</span></a>
 
                         <div id="button-title">Pobierz <strong>zakładkę Audytor dostępności</strong><br>
