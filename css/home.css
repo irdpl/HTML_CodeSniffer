@@ -168,7 +168,7 @@ td a:hover {
  right:0;
  top:0;
  width:250px;
- list-style:none;
+/* list-style:none;*/
  margin:0;
  padding:0;
 }
@@ -402,7 +402,7 @@ td a:hover {
 }
 
 #bookmarklet .requirements {
- color:#7690cc;
+ color:#cbd5ec;
  font-size:11px;
  text-align:center;
  padding:10px 60px 20px;
