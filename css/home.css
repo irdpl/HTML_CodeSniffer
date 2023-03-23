@@ -1006,11 +1006,11 @@ li label {
  right:0;
  overflow:hidden;
  bottom:95px;
- -webkit-transition:all 0.2s ease-out;
+/* -webkit-transition:all 0.2s ease-out;
  -moz-transition:all 0.2s ease-out;
  -o-transition:all 0.2s ease-out;
  -ms-transition:all 0.2s ease-out;
- transition:all 0.2s ease-out;
+ transition:all 0.2s ease-out; */
 
 }
 
@@ -1124,18 +1124,3 @@ only screen and (                min-resolution: 2dppx) {
 
 }
 
-
-
-@media (prefers-reduced-motion: reduce) {
-  *,
-  ::before,
-  ::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
-    background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
-    transition-delay: 0s !important;
-  }
-}
