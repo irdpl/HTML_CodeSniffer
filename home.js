@@ -278,8 +278,8 @@ function scrollToElement(element) {
             currScrollY += scrollBy;
             window.scrollBy(0, scrollBy);
 
-            if (currScrollY === targetScrollY) {
-                clearInterval(interval);
+if (currScrollY === targetScrollY || (sign === 1 && currScrollY >= targetScrollY) || (sign === -1 && currScrollY <= targetScrollY)) {
+    clearInterval(interval);
             } else {
                 maxTick = Math.min(maxTick + 0.5, Math.abs(targetScrollY - currScrollY));
             }
