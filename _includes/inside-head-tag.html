@@ -9,6 +9,19 @@
 <link rel="shortcut icon" href="{{ "/images/favicon.png" | prepend: site.baseurl }}">
 <script type="text/javascript" src="{{ "/inside.js" | prepend: site.baseurl }}"></script>
 
+<script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>		
+
+<script type="text/javascript">
+smoothscroll.polyfill(); 
+
+function scrollToElement(element) {
+    element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+    });
+}
+</script>
+	
 <!-- <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', 'UA-359178-16']);
