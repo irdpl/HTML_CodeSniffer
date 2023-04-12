@@ -708,7 +708,7 @@ box-shadow: -1px 0 0 rgba(255,255,255,.5) inset, 1px 0 0 rgba(0,0,0,.08) inset;
 }
 
 .result-count-warnings {
- color:#b3913a;
+ color:#b3913a; /* do zmiany */
 }
 
 .result-count-notices {
@@ -924,7 +924,7 @@ li label {
 .footnote {
  display:block;
  width:100%;
- color:#b0afaf;
+ color:#b0afaf; /* do zmiany */
  text-align:center;
  padding:15px 0 20px 0;
  text-shadow: 0 1px 0 rgba(255,255,255,1);
@@ -941,8 +941,8 @@ li label {
 }
 
 #test-results tr.warning td.number {
- color:#b3913a;
- background:#f0e9d8;
+ color:#b3913a;  /* do zmiany */
+ background:#f0e9d8; /* do zmiany */
 }
 
 #test-results tr.notice td.number {
@@ -951,8 +951,8 @@ li label {
 }
 
 #test-results tr.error td.number {
- color:#8b2020;
- background:#eedede;
+ color:#8b2020;  /* do zmiany */
+ background:#eedede;  /* do zmiany */
 }
 
 #test-results.hide-error tr.error,
