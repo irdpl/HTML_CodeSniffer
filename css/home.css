@@ -82,7 +82,7 @@ p {
  color:#18243b;
  font-size:14px;
  line-height:20px;
- text-align:justify;
+ /* text-align:justify;*/
  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
 }
 
@@ -286,7 +286,7 @@ td a:hover {
 
 #introduction #content {
  width:440px;
- text-align:justify;
+ /* text-align:justify;*/
  overflow:hidden;
 }
 
